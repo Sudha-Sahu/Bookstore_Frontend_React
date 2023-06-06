@@ -15,13 +15,13 @@ const UserSignUp = () => {
             alert(JSON.stringify(values, null, 2));
             axios.post('http://localhost:5500/add_user', {
                 ...values
-              })
-              .then(function (response) {
-                console.log(response);
-              })
-              .catch(function (error) {
-                console.log(error);
-              });
+            })
+                .then(function (response) {
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
         },
     });
     return (
@@ -62,7 +62,6 @@ const UserSignUp = () => {
             </div>
         </form>
     )
-
 }
 
 export default UserSignUp;

@@ -1,6 +1,6 @@
 import './App.css';
-import Signup from './Components/User/userSignUp'
-// import Signin from './Components/User/userSignIn'
+// import Signup from './Components/User/userSignUp'
+import Signin from './Components/User/userSignIn'
 // import Header from './Components/Header/header'
 // import Footer from './Components/Footer/footer'
 // import Routes from './Components/Route/route'
@@ -8,8 +8,8 @@ import Signup from './Components/User/userSignUp'
 function App() {
   return (
     <div>
-      <Signup />
-      {/* <Signin /> */}
+      {/* <Signup /> */}
+      <Signin />
       {/* <Header />
       <Routes />
       
