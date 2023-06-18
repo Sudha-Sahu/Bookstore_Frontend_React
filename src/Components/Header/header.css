@@ -1,0 +1,49 @@
+
+/* .header {
+    height: 4rem;
+    background-color: aqua;
+} */
+.div_head {
+    background-color: #A03037;
+}
+h5{
+    margin-top: 5px;
+}
+
+.logo_icon{
+    margin-left: 10px;
+}
+
+/*.brandName {
+    font-size: 23px;
+    color: #fff;
+} */
+
+.search_form {
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+.navItem {
+    margin-left: 24rem;
+    font-size: 18px;
+}
+
+.nav_icon {
+    color: #fff;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .search_icon {
+    top: 10px;
+    position: relative;
+    left: 452px;
+}

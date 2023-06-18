@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 235px;
+    height: 330px;
+    background-color: #ffffff;
+    border: 2px solid #E2E2E2;
+    border-radius: 3px;
+}
+
+.t-box {
+    background-color: #F5F5F5;
+}
+
+.img-b {
+    height: 135px;
+    width: 180px;
+    padding-left: 40px;
+}

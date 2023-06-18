@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+.nav-b{
+    background-color: #A03037;
+}
+
+.pc-nav{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.profile-l {
+    padding-right: 5%;
+    font-size: 21px;
+}
+
+.cart-l {
+    padding-left: 2%;
+    font-size: 21px;
+}
+
+.text{
+    color: #FFFFFF;
+    display: inline-block;
+    padding-left: 10px;    
+}
+
+.logo{
+    padding-left: 8%;
+}

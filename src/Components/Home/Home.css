@@ -1,0 +1,104 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    /* background-color: #b7e7ec; */
+}
+/* 
+.parent{
+    background-color: aqua;
+    height: 50%;
+} */
+h1{
+    font-family: 'Calibri';
+    /* font-style: italic; */
+    margin-top: 40px;
+}
+/* section{
+    margin-top: 40px;
+    transform: rotate(-20deg);
+} */
+.banner_img{
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    margin-top: -10px;
+    margin-left: 10px;
+    /* position: relative; */
+}
+.banner_img1{
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    /* margin-top: 70px; */
+    margin-left: -90px;
+    /* position: relative; */
+}
+.banner_img2{
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    /* margin-top: 40px; */
+    margin-left: 150px;
+}
+.banner_img3{
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    /* margin-top: -110px; */
+    margin-left: -90px;
+}
+.banner_img4{
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    margin-top: 20px;
+    margin-left: 140px; 
+}
+/* .child1{
+    align-items: flex-start;
+    width: 100px;
+    height: 400px;
+    background-color: aqua;
+
+} */
+
+/* .child2{
+    background-color: #ffff;
+    margin-left: 140px;
+
+} */ 
+
+.div_img1{
+    background-color: blueviolet;
+    margin-top: 70px;
+
+}
+.div_img2{
+    background-color: rgb(80, 226, 43);
+    /* height: 400px; */
+
+}
+.div_img3{
+    background-color: rgb(226, 43, 67);
+    /* margin-top: 80px; */
+
+}
+.text_div{
+    background-color: #ffff;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-20deg);
+    margin-top: 20px;
+
+}
