@@ -25,8 +25,6 @@ const Header = () => {
                 <form class="search_form">
                     <div className="d-flex">
                     <i class="fa fa-search search_icon"></i>
-                    {/* <FontAwesomeIcon icon="fal fa-search" /> */}
-                    {/* <img src="./assets/search_icon.png" alt="" width="25" height="25" class="" /> */}
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
 
                     </div>
