@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 navItem">
                         <li className="nav-item">
-                            <Link to="" className="nav-link active" aria-current="page" style={{ color: "#ffffff" }}>About</Link>
+                            <Link to="/about" className="nav-link active" aria-current="page" style={{ color: "#ffffff" }}>About</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" style={{ color: "#ffffff" }}>Home</Link>

@@ -66,7 +66,7 @@ class Footer extends React.Component {
                         </p>
                     </div>
                     <div class="text-center row_copyright">
-                        Copyright &copy; 2023 Book Designers
+                        Copyright &copy; 2023 BookStore
                     </div>
                 </div>
             </div>
