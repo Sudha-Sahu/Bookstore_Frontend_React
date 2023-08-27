@@ -3,7 +3,7 @@ import '../About/about.css'
 
 const about = () => {
   return (
-    <div className='about_main_div'>
+    <div className='container'>
       <img src="./assets/shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="" className="book_img"/>
       <div className='about_body'>
         “I pronounce after all there is no pleasure like perusing!”- Jane Austen, Pride and Prejudice.<br /><br />

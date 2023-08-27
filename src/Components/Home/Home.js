@@ -12,7 +12,7 @@ class Home extends React.Component {
                     <section className="text_section">
                         <h4 className="home_text">WHAT BOOK ARE YOU LOOKING FOR?</h4>
                         <p className="home_text">Not sure what to read next? Explore our new products</p>
-                        <Link to="/books"><h6 className="home_text" href="">Explore Now.......</h6></Link>
+                        <Link to="/books"><h6 className="home_text">Explore Now.......</h6></Link>
                     </section>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const UserSignUp = () => {
         },
         onSubmit: values => {
             alert(JSON.stringify(values, null, 2));
-            axios.post('http://localhost:5500/add_user', {
+            axios.post('http://localhost:5500/user', {
                 ...values
             })
                 .then(function (response) {

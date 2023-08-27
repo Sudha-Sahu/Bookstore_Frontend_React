@@ -1,29 +1,23 @@
-import React from "react";
-// import axios from 'axios';
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
 import "./userCss.css";
 import BackgroundImage from "./commonPart";
+import { Link } from 'react-router-dom';
 
 const UserSignIn = () => {
-    // handleUserSignIn = (e) => {
-    //     const [post, setPost] = React.useState(null);
-
-
-    //     axios({
-    //         url: 'http://localhost:5500/user',
-    //         method: 'Get',
-    //         headers: { 'Content-Type': 'application/JSON' }
-    //     })
-    //         .then(res => {
-    //             // this.setState({ user: res.data.restaurants })
-    //             setPost(res.data);
-    //             console.log(post);
-    //         })
-    //         .catch((err => console.log(err)))
-    // }
-
+    const url = "http://localhost:5500/user";
+    const [data, setData] = useState([]);
+    const fetchInfo = () => {
+      return axios.get(url).then((res) => setData(res.data));
+    };
+  
+    useEffect(() => {
+      fetchInfo();
+    }, []);
+    console.log("data", data)
+    
     return (
         <div className="d-flex align-items-center parent">
-            {/* {this.handleUserSignIn()}; */}
             <BackgroundImage title={"Online Book Shopping"} />
 
             <div className="child2">
@@ -46,11 +40,11 @@ const UserSignIn = () => {
                         <button className="btn btn-lg btn-block btn-l" type="button" style={{ backgroundColor: "#A03037", color: "#fff", width: "24rem" }}>Sign In</button>
                     </div>
 
-                    <a className="small text-muted" href="#!">Forgot password?</a>
-                    <p className="mt-2 lg-2" style={{ color: "#393f81" }}>Don't have an account? <a href="#!"
-                        style={{ color: "#393f81" }}>Register here</a></p>
-                    <a href="#!" className="small text-muted">Terms of use.</a>
-                    <a href="#!" className="small text-muted">Privacy policy</a>
+                    <Link className="small text-muted" href="#!">Forgot password?</Link>
+                    <p className="mt-2 lg-2 register_text">Don't have an account?
+                        <Link to="/signup">Register here</Link>
+                    </p>
+                    <Link href="#!" className="small text-muted">Terms of use.Privacy policy</Link>
                 </div>
             </div>
         </div>

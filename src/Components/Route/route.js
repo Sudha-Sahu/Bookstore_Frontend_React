@@ -9,16 +9,21 @@ import Signup from '../User/userSignUp';
 import About from '../About/about';
 
 const Router = () => {
-    return(
+    const allLinks = (
+        <>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/books" element={<Books />} />
+            <Route path="/signin" element={<Signin />} />
+            <Route path="/signup" element={<Signup />} />
+        </>
+    )
+    return (
         <BrowserRouter>
             <Header />
-            <Routes>           
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/cart" element={<Cart />} />
-                <Route path="/books" element={<Books />} />
-                <Route path="/signin" element={<Signin />} />
-                <Route path="/signup" element={<Signup />} />          
+            <Routes>
+                {allLinks}
             </Routes>
             <Footer />
         </BrowserRouter>
