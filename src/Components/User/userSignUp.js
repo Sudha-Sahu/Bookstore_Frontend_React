@@ -37,19 +37,19 @@ const UserSignUp = () => {
                         <h5 className="fw-normal" style={{ letterSpacing: "1px" }}>Register your account</h5>
 
                         <div className="form-outline mt-4">
-                            <label className="form-label" for="">Username</label>
+                            <label className="form-label">Username</label>
                             <input name="username" type="text" className="form-control" style={{ width: "24rem" }} onChange={formik.handleChange}
                                 value={formik.values.username} />
                         </div>
 
                         <div className="form-outline mt-4">
-                            <label className="form-label" for="">Email Id</label>
+                            <label className="form-label">Email Id</label>
                             <input name="email" type="email" className="form-control" style={{ width: "24rem" }} onChange={formik.handleChange}
                                 value={formik.values.email} />
                         </div>
 
                         <div className="form-outline mt-3">
-                            <label className="form-label" for="">Password</label>
+                            <label className="form-label">Password</label>
                             <input name="password" type="password" className="form-control" style={{ width: "24rem" }} onChange={formik.handleChange}
                                 value={formik.values.password} />
                         </div>

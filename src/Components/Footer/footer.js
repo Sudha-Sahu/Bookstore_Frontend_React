@@ -65,7 +65,7 @@ class Footer extends React.Component {
                             Telephone: 044-45614700
                         </p>
                     </div>
-                    <div class="text-center row_copyright">
+                    <div className="text-center row_copyright">
                         Copyright &copy; 2023 BookStore
                     </div>
                 </div>

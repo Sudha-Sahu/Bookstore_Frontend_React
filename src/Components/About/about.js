@@ -4,7 +4,8 @@ import '../About/about.css'
 const about = () => {
   return (
     <div className='container'>
-      <img src="./assets/shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="" className="book_img"/>
+      {/* <img src="./assets/shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="" className="book_img"/> */}
+      <div className='bookstore_text'>BOOK STORE</div>
       <div className='about_body'>
         “I pronounce after all there is no pleasure like perusing!”- Jane Austen, Pride and Prejudice.<br /><br />
         Dear readers,<br /><br />
@@ -21,4 +22,4 @@ const about = () => {
   )
 }
 
-export default about
+export default about;
